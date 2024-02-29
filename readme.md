@@ -4,7 +4,7 @@
 Professional Portfolio24
 
 ## Description
-created a profeesional web portfolio using html and css to display About me, Work, Contact Me and resume Information.
+created a professional web portfolio using html and css to display About me, My Work, Contact Me and resume Information.
 
 ## Links
 

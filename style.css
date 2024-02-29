@@ -1,0 +1,223 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(rgb(162, 0, 0), green, blue);
+    position: relative;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 16px;
+    padding: 5px;
+    background-color: rgb(rgb(162, 0, 0), green, blue);
+    border-bottom: 1px solid rgb(136, 98, 98);
+}
+
+
+header nav {
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.work img:hover,
+.overlay3:hover {
+    box-shadow: 0 0 40px 1px rgb(red, green, blue);
+    opacity: 1;
+    background: rgba(red, green, blue, alpha);
+    width: 100%;
+    transition: .5s ease;
+}
+
+
+.contact-me a:hover {
+   box-shadow: 0 0 10px 1px rgb(red, green, blue);
+   transition: all 0.25s ease; 
+}
+
+
+.overlay {
+    text-align: center;
+    position: relative;
+    padding: 10px;
+}
+
+
+.overlay2 {
+    position: relative;
+    transition:  .5s ease;
+    color: rgb(red, green, blue);
+    background-color: rgba(red, green, blue, alpha);
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.intro {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+main {
+    padding: 4px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    border-bottom: 5px solid rgb(red, green, blue);
+}
+
+
+main article {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+main h2 {
+    text-align: right;
+    border-right: 8px solid rgb(red, green, blue);
+    padding-right: 5px;
+    color: rgb(136, 98, 98);
+}
+
+
+main p {
+    padding-bottom: 15px;
+    font-size: 150%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(red, green, blue);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 75px;
+    border-radius: 16px;
+}
+
+
+main a {
+    display: flex;
+    justify-content: center;
+}
+
+
+h1 {
+    align-self: flex-start;
+    font-size: 300%;
+    color: seashell;
+    text-align: left;
+}
+
+
+h2 {
+    text-decoration: none;
+    margin-top: 50px;
+    margin-left: 100px;
+    color: rgb(red, green, blue);
+    font-size: 500%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.work {
+    display: flex;
+    padding: 10px;
+    border-bottom: 5px solid rgb(red, green, blue);
+    background-color: rgb(red, green, blue);
+}
+
+
+.work h2 {
+    display: flex;
+    text-align: right;
+    margin-right: 7px;
+    margin-left: 120px;
+    padding-right: 5px;
+    border-right: 8px solid rgb(red, green, blue);
+    color: rgb(red, green, blue);
+}
+
+
+.work img {
+    border-radius: 25px;
+    margin-top: 35px;
+    border: 5px solid rgb(red, green, blue);
+    margin-left: 20px;
+    display: block;
+    width: 400px;
+    height: auto;
+}
+
+
+.work article div {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -25px;
+}
+
+
+.contact-me h2 {
+    word-wrap: break-word;
+    display: flex;
+    text-align: right;
+    margin-right: 7px;
+    margin-left: 25px;
+    padding-right: 5px;
+    border-right: 8px solid rgb(red, green, blue);
+    color: rgb(red, green, blue);
+}
+
+
+.contact-me div {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.contact-me article {
+    padding: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 150%;
+    margin: 10px;
+}
+
+
+footer {
+    text-align: center;
+}
+
+
+hero {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+@media screen and (max-width: 992px) {
+    main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card {
+        width: 50%;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .card {
+        width: 100%;
+    }
+}
