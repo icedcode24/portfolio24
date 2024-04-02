@@ -3,7 +3,7 @@
 }
 
 
-body{
+body {
     background-color: rgb(rgb(162, 0, 0), green, blue);
     position: relative;
 }
@@ -11,13 +11,12 @@ body{
 
 header {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    align-items: left;
     width: 100%;
     margin-bottom: 16px;
     padding: 5px;
     background-color: rgb(rgb(162, 0, 0), green, blue);
-    border-bottom: 1px solid rgb(136, 98, 98);
+    border-bottom: 1px solid rgb(0, 0, 0);
 }
 
 
@@ -38,8 +37,8 @@ header nav {
 
 
 .contact-me a:hover {
-   box-shadow: 0 0 10px 1px rgb(red, green, blue);
-   transition: all 0.25s ease; 
+    box-shadow: 0 0 10px 1px rgb(red, green, blue);
+    transition: all 0.25s ease;
 }
 
 
@@ -52,7 +51,7 @@ header nav {
 
 .overlay2 {
     position: relative;
-    transition:  .5s ease;
+    transition: .5s ease;
     color: rgb(red, green, blue);
     background-color: rgba(red, green, blue, alpha);
     font-size: 20px;
@@ -73,8 +72,9 @@ main {
     margin-top: 10px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    /* justify-content: flex-start; */
     border-bottom: 5px solid rgb(red, green, blue);
+    text-align: right;
 }
 
 
@@ -88,7 +88,7 @@ main h2 {
     text-align: right;
     border-right: 8px solid rgb(red, green, blue);
     padding-right: 5px;
-    color: rgb(136, 98, 98);
+    color: rgb(4, 4, 4);
 }
 
 
@@ -116,7 +116,7 @@ main a {
 h1 {
     align-self: flex-start;
     font-size: 300%;
-    color: rgb(23, 10, 0);
+    color: rgb(red, green, blue);
     text-align: left;
 }
 
@@ -183,6 +183,7 @@ h2 {
 .contact-me div {
     display: flex;
     flex-direction: column;
+
 }
 
 
@@ -210,6 +211,7 @@ hero {
         display: flex;
         flex-wrap: wrap;
     }
+
     .card {
         width: 50%;
     }
