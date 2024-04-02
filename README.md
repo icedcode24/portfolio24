@@ -7,7 +7,9 @@ Professional Portfolio24
 created a professional web portfolio using html and css to display About me, My Work, Contact Me and resume Information.
 
 ## Links
-https://github.com/icedcode24/portfolio24
+REPO: https://github.com/icedcode24/portfolio24
+
+LIVE URL: https://icedcode24.github.io/portfolio24
 
 
 ## Usage
